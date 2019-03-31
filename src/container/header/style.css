@@ -1,0 +1,10 @@
+.header{
+    height: 70px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    padding: 20px 50px;
+}
+
+.link{
+    margin-left: 30px;
+}
