@@ -54,6 +54,7 @@ class Signup extends Component{
                 }else {
                     this.props.signupUser(data.data);
                     if(data.status){
+                        alert("Your account created successfully.")
                         this.setState({redirectToList: true})
                     }
                 }
